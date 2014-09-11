@@ -26,12 +26,11 @@ html {
 	width: 33%;
 }
 
-figure { 
+.banner { 
 	position: relative;
-	
 }
 
-figcaption {
+.above {
 	color:#FEF8F8;
 	position: absolute;
 	bottom: 0;
