@@ -16,6 +16,17 @@ html {
   text-size-adjust: 100%;
 }
 
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+	
 .caps {
 	text-transform: uppercase;
 }
@@ -26,24 +37,16 @@ html {
 	width: 33%;
 }
 
-.banner { 
-	position: relative;
-}
-
 .above {
 	color:#FEF8F8;
 	position: absolute;
 	bottom: 0;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+.banner { 
+	position: relative;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
 
 img {
   display: block;
