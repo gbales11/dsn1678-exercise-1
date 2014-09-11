@@ -16,8 +16,19 @@ html {
   text-size-adjust: 100%;
 }
 
+.caps {
+	text-transform: uppercase;
+}
+
 .section {
-	position: block;
+	float: left;
+	overflow: hidden;
+	width: 33%;
+}
+
+figure { 
+	position: relative;
+	
 }
 
 figcaption {
