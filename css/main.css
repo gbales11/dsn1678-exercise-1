@@ -16,6 +16,11 @@ html {
   text-size-adjust: 100%;
 }
 
+figcaption {
+	position: absolute;
+	bottom: 0;
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -29,3 +34,4 @@ img {
   display: block;
   width: 100%;
 }
+
